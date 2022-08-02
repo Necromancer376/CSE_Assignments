@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <h1><u>Hackathon Registration</u></h1>
+    </head>
+    <body>
+        <div id="div_video">
+            <video width="540px" height="420" autoplay muted
+                id="video">
+                <source src="video.mp4" type="video/mp4">
+                <source src="video.ogg" type="video/ogg">
+            </video>
+        </div>
+
+        <div id="div_form">
+            <table>
+                <form>
+                    <tr id="form_heading">
+                        <td colspan="2"> <b><u>Register</u></b> </td>
+                    </tr>
+                    <tr>
+                        <td><b>Username: </b></td>
+                        <td><input type="text" id="username"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Email: </b></td>
+                        <td><input type="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Project Title: </b></td>
+                        <td><input type="text" id="project_description"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="birthdate"><b>birthdate:</b></label> </td>
+                        <td><input type="date" id="birthdate" name="birthdate"> </td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity"><b>Team Members [2-5]: </b></label></td>
+                        <td><input type="number" id="quantity" name="quantity" min="2" max="5"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Stream:</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><div id="radio_streams">
+                            <input type="radio" id="fintech" name="stream" value="fintech">
+                            <label for="fintech">Fintech</label><br>
+                            <input type="radio" id="education" name="stream" value="education">
+                            <label for="education">Education</label><br>
+                            <input type="radio" id="blockchain" name="stream" value="blockchain">
+                            <label for="blockchain">Blockchain</label><br>
+                            <input type="radio" id="open_inno" name="stream" value="open innovation">
+                            <label for="open_inno">Open Innovation</label><br>
+                        </div></td>
+                    </tr> 
+
+                    <tr>
+                        <td><b>Skills:</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div id="checkbox_skills">
+                                <input type="checkbox" id="web_development" value="web development">
+                                <label for="web_development">Web Development</label><br>
+                                <input type="checkbox" id="app_development" value="app development">
+                                <label for="app_development">App Development</label><br>
+                                <input type="checkbox" id="ui_ux" value="UI/Ux">
+                                <label for="ui_ux">UI/Ux</label><br>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>About Project: </b></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><textarea id="project_title" rows="4" cols="33" >description </textarea></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="firstDraftFile"><b>First Draft: </b></label></td>
+                        <td><input type="file" id="firstDraftFile" name="firstDraftFile"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <input type="submit" value="submit" id="btn_submit"> </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+        <audio autoplay muted>
+            <source src="audio.mp3" type="audio/ogg">
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>

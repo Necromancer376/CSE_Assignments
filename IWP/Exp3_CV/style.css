@@ -1,0 +1,47 @@
+
+body {
+    font-size: 14px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin-top: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: bold;
+    text-align: center;
+}
+
+.line{
+    width: 44%;
+    height: 60px;
+    border-top: 1px solid black;
+    position: absolute;
+}
+
+table {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 15 0px;
+}
+
+td {
+    vertical-align: top;
+    padding-right: 10px;
+}
+
+#user_img { padding-left: 150px; }
+
+#table_education {
+    width: 600px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#table_clubs { width: 400px; }
+
+#table_skills { width: 500px; }
+
+#table_projects { width: 600px; }

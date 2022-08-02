@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    background-color: whitesmoke;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-spacing: 0 10px;
+}
+
+#div_form {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+#form_heading {
+    font-size: xx-large;
+    text-align: center;
+}
+
+#radio_streams {
+    padding-left: 20px;
+}
+
+#checkbox_skills {
+    padding-left: 20px;
+}
+
+#btn_submit {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+#div_video {
+    padding-left: 340px;
+    padding-right: 360px;
+}
+
+video {
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+textarea {
+    line-height: 1;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
